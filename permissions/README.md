@@ -26,7 +26,7 @@ PERMISSIONS
 
 #12 mkdir --mode=751 [name of directory] : create a directory with permissions 751 in the working directory.
 
-#13
+#13 chown :[group] [file] OR chgrp [group] [file] : change the group owner for a file.
 
 #14
 
