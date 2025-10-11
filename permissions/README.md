@@ -2,7 +2,7 @@ PERMISSIONS
 
 #1 su betty : Change the current user.
 
-#2
+#2 whoami : print the effective username of the current user.
 
 #3
 
