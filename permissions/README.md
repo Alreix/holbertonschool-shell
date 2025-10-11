@@ -8,7 +8,7 @@ PERMISSIONS
 
 #4 chown [user] [file] : Change the owner of a file to a particular user. 
 
-#5
+#5 touch : create an empty files.
 
 #6
 
