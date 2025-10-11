@@ -1,24 +1,26 @@
 PERMISSIONS
 
-#1 su [username] : Change the current user.
+#0 su [username] : Change the current user.
 
-#2 whoami : print the effective username of the current user.
+#1 whoami : print the effective username of the current user.
 
-#3 groups [user]: prints all the groups the current user is part of.
+#2 groups [user]: prints all the groups the current user is part of.
 
-#4 chown [user] [file] : Change the owner of a file to a particular user. 
+#3 chown [user] [file] : Change the owner of a file to a particular user. 
 
-#5 touch [file] : create an empty files.
+#4 touch [file] : create an empty files.
 
-#6 chmod u+x [file] : adds execute permission to the owner of the file.
+#5 chmod u+x [file] : adds execute permission to the owner of the file.
 
-#7 chmod ug+x,o+r [file] : adds execute permission to the owner and the group owner, and read permission to the other users.
+#6 chmod ug+x,o+r [file] : adds execute permission to the owner and the group owner, and read permission to the other users.
 
-#8 chmod ugo+x [file] : adds execution permission to the owner, the groups and other users.
+#7 chmod ugo+x [file] : adds execution permission to the owner, the groups and other users.
 
-#9 chmod 007 [file] : remove permission to user and groups and add all permissions to other users.
+#8 chmod 007 [file] : remove permission to user and groups and add all permissions to other users.
 
-#10
+#9 chmod 753 [file] : set the mode of file like this -rwxr-x-wx (all permission for the user, read and excute permission for the groups, write and execute for other users)
+
+#10 chmod --reference=[file reference] [file] : set the mode of a file similar to an other file despite changes. 
 
 #11
 
