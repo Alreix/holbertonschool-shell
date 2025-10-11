@@ -10,7 +10,7 @@ PERMISSIONS
 
 #5 touch [file] : create an empty files.
 
-#6 chmod +x [file] : adds execute permission to the owner of the file.
+#6 chmod u+x [file] : adds execute permission to the owner of the file.
 
 #7
 
