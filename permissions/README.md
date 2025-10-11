@@ -1,12 +1,12 @@
 PERMISSIONS
 
-#1 su betty : Change the current user.
+#1 su [username] : Change the current user.
 
 #2 whoami : print the effective username of the current user.
 
-#3 groups : prints all the groups the current user is part of.
+#3 groups [user]: prints all the groups the current user is part of.
 
-#4
+#4 chown [user] [file] : Change the owner of a file to a particular user. 
 
 #5
 
