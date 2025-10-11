@@ -4,7 +4,7 @@ PERMISSIONS
 
 #2 whoami : print the effective username of the current user.
 
-#3
+#3 groups : prints all the groups the current user is part of.
 
 #4
 
