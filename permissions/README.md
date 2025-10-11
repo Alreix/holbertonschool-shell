@@ -8,9 +8,9 @@ PERMISSIONS
 
 #4 chown [user] [file] : Change the owner of a file to a particular user. 
 
-#5 touch : create an empty files.
+#5 touch [file] : create an empty files.
 
-#6
+#6 chmod +x [file] : adds execute permission to the owner of the file.
 
 #7
 
