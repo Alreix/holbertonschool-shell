@@ -14,7 +14,7 @@ PERMISSIONS
 
 #7 chmod ug+x,o+r [file] : adds execute permission to the owner and the group owner, and read permission to the other users.
 
-#8
+#8 chmod ugo+x [file] : adds execution permission to the owner, the groups and other users.
 
 #9
 
