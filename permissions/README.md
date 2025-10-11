@@ -22,9 +22,9 @@ PERMISSIONS
 
 #10 chmod --reference=[file reference] [file] : set the mode of a file similar to an other file despite changes. 
 
-#11
+#11 chmod -R a+x . : adds exectute permissions to all of the current directory.
 
-#12
+#12 mkdir --mode=751 [name of directory] : create a directory with permissions 751 in the working directory.
 
 #13
 
