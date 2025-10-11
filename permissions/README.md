@@ -28,8 +28,8 @@ PERMISSIONS
 
 #13 chown :[group] [file] OR chgrp [group] [file] : change the group owner for a file.
 
-#14
+#14 chown -R [user]:[group] . : changes the owner and the group for all files and directory in the current directory.
 
-#15
+#15 chown -h [user]:[group] [file] : change the owner and group owner with a symbolic links.
 
-#16
+#16 chown --from=[base user] [new user] [file] : changes the owner of one file only if the owner is different. 
