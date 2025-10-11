@@ -16,7 +16,7 @@ PERMISSIONS
 
 #8 chmod ugo+x [file] : adds execution permission to the owner, the groups and other users.
 
-#9
+#9 chmod 007 [file] : remove permission to user and groups and add all permissions to other users.
 
 #10
 
