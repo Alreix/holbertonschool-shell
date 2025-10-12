@@ -6,9 +6,9 @@ REDIRECTION AND FILTERS
 
 #2 cat [file] : display the content of file in stdout directly.
 
-#3
+#3 cat [file1] [file2] : display the content of file1 and file2 directly on stdout.
 
-#4
+#4 tail -n 10 [file] : display the last 10 lines of the file.
 
 #5
 
