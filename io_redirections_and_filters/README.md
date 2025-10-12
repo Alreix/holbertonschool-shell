@@ -14,9 +14,9 @@ REDIRECTION AND FILTERS
 
 #6 head -n 3 [file] | tail -n 1 : display the third line of file even if the content of the file change.
 
-#7
+#7 echo "Best School" > \\\*\\\\\'\"Best\ School\"\\\'\\\\\*$\\\?\\\*\\\*\\\*\\\*\\\*:\) : create a file named exactly \*\\'"Best School"\'\\*$\?\*\*\*\*\*:) and containing the text Best School.
 
-#8
+#8 ls -la > [file] : write into the file the result of the command ls -la and overwritten if the file exist.
 
 #9
 
