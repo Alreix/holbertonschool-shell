@@ -12,7 +12,7 @@ REDIRECTION AND FILTERS
 
 #5 head -n 10 [file] : display the 10 first line of a file.
 
-#6
+#6 head -n 3 [file] | tail -n 1 : display the third line of file even if the content of the file change.
 
 #7
 
