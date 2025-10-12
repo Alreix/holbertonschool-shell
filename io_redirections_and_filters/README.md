@@ -4,7 +4,7 @@ REDIRECTION AND FILTERS
 
 #1 echo "/"(Ôo)'" : display a confused smiley.
 
-#2
+#2 cat [file] : display the content of file in stdout directly.
 
 #3
 
