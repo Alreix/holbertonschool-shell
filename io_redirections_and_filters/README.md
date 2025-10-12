@@ -2,7 +2,7 @@ REDIRECTION AND FILTERS
 
 #0 echo "Hello, Wolrd" : prints "Hello, World" followed by a new line to the standart output.
 
-#1
+#1 echo "/"(Ôo)'" : display a confused smiley.
 
 #2
 
