@@ -10,7 +10,7 @@ REDIRECTION AND FILTERS
 
 #4 tail -n 10 [file] : display the last 10 lines of the file.
 
-#5
+#5 head -n 10 [file] : display the 10 first line of a file.
 
 #6
 
