@@ -18,7 +18,7 @@ REDIRECTION AND FILTERS
 
 #8 ls -la > [file] : write into the file the result of the command ls -la and overwritten if the file exist.
 
-#9
+#9 tail -n 1 [file] >> [file] : duplicate the last line of the file in file.
 
 #10
 
