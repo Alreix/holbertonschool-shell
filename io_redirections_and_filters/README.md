@@ -22,7 +22,7 @@ REDIRECTION AND FILTERS
 
 #10 find . -type f -name '*.js' -delete : delete all the regular files (not the directories) with .js extension that are present int the current directory.
 
-#11 find . -maxdepth 1 -type d | wc -l : counts the number of directories and sub-directories in the current directory.
+#11 find . -mindepth 1 -type d | wc -l : counts the number of directories and sub-directories in the current directory.
 
 #12
 
