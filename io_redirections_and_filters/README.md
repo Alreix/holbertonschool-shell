@@ -30,7 +30,7 @@ REDIRECTION AND FILTERS
 
 #14 grep root /etc/passwd : display lines containing the pattern "root" form the file /etc/passwd.
 
-#15
+#15 grep bin /etc/passwd | wc -l : display the number of lines that contain the pattern 'bin' in /etc/passwd.
 
 #16
 
