@@ -26,9 +26,9 @@ REDIRECTION AND FILTERS
 
 #12 ls -t | head -n 10 : displays the 10 newest files int the current directory.
 
-#13
+#13 sort | uniq -u : take a list of words as input and prints only words that appear exactly once.
 
-#14
+#14 grep root /etc/passwd : display lines containing the pattern "root" form the file /etc/passwd.
 
 #15
 
