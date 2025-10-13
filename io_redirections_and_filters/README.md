@@ -24,7 +24,7 @@ REDIRECTION AND FILTERS
 
 #11 find . -mindepth 1 -type d | wc -l : counts the number of directories and sub-directories in the current directory.
 
-#12
+#12 ls -t | head -n 10 : displays the 10 newest files int the current directory.
 
 #13
 
