@@ -20,9 +20,9 @@ REDIRECTION AND FILTERS
 
 #9 tail -n 1 [file] >> [file] : duplicate the last line of the file in file.
 
-#10
+#10 find . -type f -name '*.js' -delete : delete all the regular files (not the directories) with .js extension that are present int the current directory.
 
-#11
+#11 find . -maxdepth 1 -type d | wc -l : counts the number of directories and sub-directories in the current directory.
 
 #12
 
