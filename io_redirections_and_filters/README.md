@@ -32,17 +32,17 @@ REDIRECTION AND FILTERS
 
 #15 grep bin /etc/passwd | wc -l : display the number of lines that contain the pattern 'bin' in /etc/passwd.
 
-#16
+#16 grep -A 3 'root' /etc/passwd : display lines containing the pattern "root" and 3 lines after them in the file etc/passwd.
 
-#17
+#17 grep -v 'bin' /etc/passwd : display all the lines in the file /etc/passwd that do not contain the pattern "bin".
 
-#18
+#18 grep [[:alpha:]]* /etc/ssh/sshd_config : display all line of the file /etc/ssh/sshd_config starting with a letter.
 
-#19
+#19 tr 'Ac' 'Ze': replace all characters A et c from input to Z and e respectively.
 
-#20
+#20 tr -d 'Cc' : removes all letters c and C from input. 
 
-#21
+#21 rev : reverse the input.
 
-#22
+#22 cut -d: -f1,6 /etc/passwd | sort : displays all users and their home directories, stored by users.
 
