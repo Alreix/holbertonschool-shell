@@ -20,9 +20,9 @@ INIT FILES VARIABLES AND EXPANSIONS
 
 #9 echo $(($POWER/$DIVIDE)) : prints the result of POWER divided by DIVIDE, followed by new line.
 
-#10
+#10 echo $(($BREATH**$lOVE)) : displays the result of BREATH to the power LOVE.
 
-#11
+#11 echo $((2#$BINARY)) : that convert a number from base 2 to base 10.
 
 #12
 
