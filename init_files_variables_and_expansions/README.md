@@ -18,7 +18,7 @@ INIT FILES VARIABLES AND EXPANSIONS
 
 #8 echo $((128 + 1209)) : prints the result of addition of 128 et 1209.
 
-#9
+#9 echo $(($POWER/$DIVIDE)) : prints the result of POWER divided by DIVIDE, followed by new line.
 
 #10
 
