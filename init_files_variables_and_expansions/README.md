@@ -16,7 +16,7 @@ INIT FILES VARIABLES AND EXPANSIONS
 
 #7 export BEST=School : create a global variable.
 
-#8
+#8 echo $((128 + 1209)) : prints the result of addition of 128 et 1209.
 
 #9
 
