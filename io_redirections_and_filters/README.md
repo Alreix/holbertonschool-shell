@@ -46,3 +46,10 @@ REDIRECTION AND FILTERS
 
 #22 cut -d: -f1,6 /etc/passwd | sort : displays all users and their home directories, stored by users.
 
+#23 find -empty | rev | cut -d '/' -f1 | reV : finds all empty files and directories in the current directory and all sub-directories. (Only the name of files and directories not the path, with hidden files and one per line.
+
+#24 find . -type f -name '*.gif' | rev | cut -d '/' -f1 | cut -d '.' -f2,3 | rev | sort -f : lists all the files with a .gif extension in the current directory and all its sub-directories. (Hidden files is listed, files are display without their extension, files are sorted by bytes values and case insensitive and files).
+
+#25 cut -f1 | tr -d '\n' | xargs printf "%s\n" : that decodes acrostics that use the first letter of each line. 
+
+#26 tail -n +2 | cut -f1 | sort --ignore-case | uniq -c | sort -nr | head -11 | rev | cut -d ' ' -f1 | rev : parses web servers logs in TSV format as input and displays the 11 hosts or IP addresses which did the most requests. Order by number of requests, most active host or IP at the top
