@@ -4,7 +4,7 @@ PERMISSIONS
 
 #1 whoami : print the effective username of the current user.
 
-#2 groups [user]: prints all the groups the current user is part of.
+#2 groups [user] : prints all the groups the current user is part of.
 
 #3 chown [user] [file] : Change the owner of a file to a particular user. 
 
