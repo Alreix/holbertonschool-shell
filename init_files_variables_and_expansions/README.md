@@ -30,6 +30,10 @@ INIT FILES VARIABLES AND EXPANSIONS
 
 #14 printf "%x\n" "$DECIMAL" : converts a number from base 10 to base 16.
 
- 
+#15 tr 'A-Za-z' 'N-ZA-Mn-za-m' : that encodes and decodes text using the rot13 encryption. Assume ASCII.
+
+#16 paste - - | cut -f1 : that prints every other line from the input, starting with the first line.
+
+#17 printf "%o\n" $(( 5#$(echo $WATER | tr 'water' '01234') + 5#$(echo $STIR | tr 'stir.' '01234'))) | tr '01234567' 'bestchol'
 
 
